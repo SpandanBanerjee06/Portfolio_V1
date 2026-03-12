@@ -35,7 +35,7 @@ export const mySocials = [
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/spandan-banerjee-434b22348/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "/assets/socials/linkedin.svg",
   }
 ];
 
