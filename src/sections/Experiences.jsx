@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "motion/react";
+import { experiences } from "../constants";
 
 export const Timeline = ({ data }) => {
   const containerRef = useRef(null);
@@ -61,3 +62,13 @@ export const Timeline = ({ data }) => {
     </div>
   );
 };
+const Experiences = () => {
+  return (
+    <section className="c-space section-spacing" id="work">
+      <h2 className="text-heading">My Work Experience</h2>
+      <Timeline data={experiences} />
+    </section>
+  );
+};
+
+export default Experiences;
